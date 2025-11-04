@@ -1,0 +1,16 @@
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.6
+scipy>=1.15
+matplotlib>=3.10
+seaborn>=0.13
+imbalanced-learn>=0.13
+scikit-network>=0.33
+pysankey>=0.0.1
+tifffile>=2025.2
+requests>=2.32
+beautifulsoup4>=4.13
+pyqt5>=5.15
+jupyterlab
+ipykernel
+pyqtdarktheme

@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: fluoro-forest
+Version: 0.1.0
+Summary: Random forest guided cell annotation of immunofluorescence data
+Author-email: Josh Brand <joshuabrand22@gmail.com>
+Project-URL: Homepage, https://github.com/TODO
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=2.0
+Requires-Dist: pandas>=2.2
+Requires-Dist: scikit-learn>=1.6
+Requires-Dist: scipy>=1.15
+Requires-Dist: matplotlib>=3.10
+Requires-Dist: seaborn>=0.13
+Requires-Dist: imbalanced-learn>=0.13
+Requires-Dist: scikit-network>=0.33
+Requires-Dist: pysankey>=0.0.1
+Requires-Dist: tifffile>=2025.2
+Requires-Dist: requests>=2.32
+Requires-Dist: beautifulsoup4>=4.13
+Requires-Dist: pyqt5>=5.15
+Requires-Dist: jupyterlab
+Requires-Dist: ipykernel
+Requires-Dist: pyqtdarktheme

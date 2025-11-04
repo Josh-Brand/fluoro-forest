@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluoro-forest"
+version = "0.1.0"
+requires-python = ">=3.12"
+description = "Random forest guided cell annotation of immunofluorescence data"
+readme = "README.md"
+authors = [
+  { name="Josh Brand", email="joshuabrand22@gmail.com" },
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# This is where your dependencies go! See Step 3.
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "scipy>=1.15",
+    "matplotlib>=3.10",
+    "seaborn>=0.13",
+    "imbalanced-learn>=0.13",
+    "scikit-network>=0.33",
+    "pysankey>=0.0.1",
+    "tifffile>=2025.2",
+    "requests>=2.32",
+    "beautifulsoup4>=4.13",
+    "pyqt5>=5.15",
+    "jupyterlab", 
+    "ipykernel",
+    "pyqtdarktheme"
+]
+
+[project.urls]
+Homepage = "https://github.com/TODO"
+
+[tool.setuptools.packages.find]
+where = ["src"]
